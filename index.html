@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <header class="position-relative">
+        <div class=" container">
+            <div class="top-header bg-transparent d-flex justify-content-between align-items-center py-10">
+                <div class="d-flex gap-3 align-items-center">
+                    <a href="tel:+1 4699702947" class="blue-link text-decoration-none fs-13">
+                        <i class="fa-solid fa-phone-flip"></i>
+                       +1 (410) 424-9944
+                    </a>
+                    <a href="mailto:info@Techllcsolution.com" class="blue-link text-decoration-none fs-13">
+                        <i class="fa-solid fa-envelope"></i>
+                        info@Techllcsolution.com
+                    </a>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <button class="btn p-0 m-0 blue-link" id="openSearch">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="btn p-0 m-0 blue-link" id="openSidebar">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="">
+                <div id="backdrop" class="backdrop"></div>
+    
+                <div id="sidebar" class="sidebar">
+                    <span id="closeSidebar" class="close-btn">
+                        <i class="bi bi-x-lg"></i>
+                    </span>
+                
+                    <div class="mt-5 bg-white p-3">
+                        <h5 class="section-title">Archives</h5>
+                        <div class="services-list">
+                            <a href="/blog.html" class="border-0">April 2024</a>
+                        </div>
+                    </div>
+                
+                    <div class="mt-4 bg-white p-3">
+                        <h5 class="section-title">Services</h5>
+                        <div class="services-list">
+                            <a href="./blog/appdesign.html">Apps Design</a>
+                            <a href="./blog/graphicdesign.html">Graphics Design</a>
+                            <a href="./blog/seooptimization.html">SEO Optimization</a>
+                            <a href="./blog/webdesign.html">Web Design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header p-3 bg-white">
+                <div class="navbar navbar-expand-lg d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <a href="/">
+                                <img src="./assets/images/header-logo.svg" alt="Company Logo" class="me-2" width="200">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-black"></span>
+                        </button>
+                      
+                      <div class="navbar collapse navbar-collapse justify-content-start w-full justify-content-lg-end" id="navbarSupportedContent">
+                          <div class="d-flex gap-lg-5 gap-2 align-items-cetner flex-lg-row flex-column">
+                              <nav>
+                                  <ul class="nav flex-lg-row flex-column">
+                                      <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+                                      <li class="nav-item"><a href="/aboutus.html" class="nav-link">About Us</a></li>
+                                      <li class="nav-item"><a href="/services.html" class="nav-link">Services</a></li>
+                                      <li class="nav-item"><a href="/contact.html" class="nav-link ">Contact Us</a></li>
+                                  </ul>
+                              </nav>
+                              <a href="/contact.html" class="btn-primary">Let's Chat</a>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white position-absolute z-10 w-100 h-100 top-0 border-bottom search-main">
+            <div class="container d-flex align-items-center justify-content-center h-100">
+                <div class="search-wrapper">
+                    <input type="text" class="form-control" placeholder="Search ...">
+                    <i class="fas fa-search me-2"></i>
+                    <i class="fas fa-times" id="closeSearch"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero overflow-x-hidden">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="sub-heading">WELCOME TO OUR WORLD</p>
+                    <h1 class="text-dark fw-bold">Hey, We're <br><span class="text-yellow">Digital Marketing</span> Agency.</h1>
+                    <p class="">At Techllcsolution Digital Marketing LLC, we deliver innovative strategies to grow your brand, drive traffic, and boost revenue. Whether it's SEO, social media, or PPC campaigns, we help your business thrive in the digital world. Let's achieve your goals together.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn-primary">Services</a>
+                        <a href="#" class="text-decoration-none text-grey hover-text-yellow fw-semibold d-flex align-items-center gap-2"> <i class="fa-regular fa-comments"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-right">
+                        <img src="./assets/images/banner-img.png" alt="Marketing Team" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us py-100 bg-light">
+        <div class="container">
+            <div class="bg-white our-drive">
+                <div class="row px-lg-0 px-3">
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+                        <div class="d-flex gap-3 align-items-center justify-content-md-start justify-content-center">
+                            <span class="text-yellow">
+                                <i class="fa-solid fa-medal"></i>
+                            </span>
+                            <div>
+                                <h3>OUR DRIVE</h3>
+                                <p>Fostering Growth and Success</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+                        <div class="d-flex gap-3 align-items-center justify-content-md-start justify-content-center">
+                            <span class="text-yellow">
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </span>
+                            <div>
+                                <h3>OUR DRIVE</h3>
+                                <p>Fostering Growth and Success</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+                        <div class="d-flex gap-3 align-items-center justify-content-md-start justify-content-center">
+                            <span class="text-yellow">
+                                <i class="fa-solid fa-headset"></i>
+                            </span>
+                            <div>
+                                <h3>OUR DRIVE</h3>
+                                <p>Fostering Growth and Success</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+                        <div class="d-flex gap-3 align-items-center justify-content-md-start justify-content-center">
+                            <span class="text-yellow">
+                                <i class="fa-solid fa-trophy"></i>
+                            </span>
+                            <div>
+                                <h3>OUR DRIVE</h3>
+                                <p>Fostering Growth and Success</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/images/aboutus-img.png" alt="Digital Marketing Services" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="sub-heading">ABOUT US</h4>
+                    <h2 class="">Our <span class="text-yellow">Expert Team</span> Drives Your Digital Success</h2>
+                    <p class="">At Techllcsolution Digital Marketing LLC, we specialize in web development, SEO optimization, and social media marketing to help your business grow online.</p>
+                    <ul class="list-unstyled">
+                        <li class="text-grey d-flex gap-2 mb-2 align-items-center fw-semibold">
+                            <span class="text-yellow">
+                                <svg aria-hidden="true" class="" width="18" height="18" fill="currentColor" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM88 256H56c0-105.9 86.1-192 192-192v32c-88.2 0-160 71.8-160 160zm160 96c-53 0-96-43-96-96s43-96 96-96 96 43 96 96-43 96-96 96zm0-128c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"></path></svg>
+                            </span>
+                            <span>
+                                Name: Techllcsolution Digital Marketing
+                            </span>
+                        </li>
+                        <li class="text-grey d-flex gap-2 mb-2 align-items-center fw-semibold">
+                            <span>
+                                <i class="fa-solid fa-phone-volume text-yellow"></i>
+                            </span>
+                            <span>
+                                Phone :+1 (410) 424-9944
+                            </span>
+                        </li>
+                        <li class="text-grey d-flex gap-2 mb-2 align-items-center fw-semibold">
+                            <span>
+                                <i class="fa-regular fa-envelope text-yellow"></i>
+                            </span>
+                            <span>
+                                Mail : info@Techllcsolution.com
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="mt-5">
+                        <a href="#" class="btn-primary">More About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4 class="sub-heading">OUR SERVICES</h4>
+                    <h2 class="">Top Notch <span class="text-yellow">Creative Solutions</span></h2>
+                    <p class="">We deliver innovative and effective strategies to elevate your brand, driving growth and success through creative digital solutions.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <p>We combine cutting-edge technology with expert insights to develop customized strategies that resonate with your audience. Our team is dedicated to turning your vision into reality, ensuring every solution is impactful and results-driven.</p>
+                        <button class="btn-primary">More Services</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="services-card">
+                        <div class="card-head">
+                            <div class="icon">
+                                <i class="fa-solid fa-desktop"></i>
+                            </div>
+                            <div class="border-text">01</div>
+                        </div>
+                        <h3 class="">Website Design</h3>
+                        <p class="text-secondary">Create responsive, user-friendly websites that enhance customer experience and help achieve business goals effectively.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="services-card">
+                        <div class="card-head">
+                            <div class="icon">
+                                <i class="fa-regular fa-address-card"></i>
+                            </div>
+                            <div class="border-text">02</div>
+                        </div>
+                        <h3 class="">Influencer Marketing</h3>
+                        <p class="text-secondary">Collaborate with influencers to reach a broader audience, boost brand awareness, and increase trust.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="services-card">
+                        <div class="card-head">
+                            <div class="icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <div class="border-text">03</div>
+                        </div>
+                        <h3 class="">Social Media Marketing</h3>
+                        <p class="text-secondary">Build and manage impactful social media campaigns that connect with your audience and drive conversions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="aim py-100 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h4 class="sub-heading mx-auto before">OUR AIM</h4>
+                <h2 class="fw-bold">Our <span class="text-yellow">Vision In Action</span></h2>
+                <div class="col-lg-6 mx-auto">
+                    <p class="text-secondary">We are dedicated to transforming ideas into impactful results, enhancing business growth, and fostering meaningful connections through innovative digital strategies.</p>
+                </div>
+                <h4 class="fw-semibold fs-6 text-yellow">Driving Success Across Industries</h4>
+                <h2 class="fs-3 fw-semibold">OUR AIM</h2>
+            </div>
+            <div class="mt-4 p-4 shadow-sm bg-grey rounded">
+                <div class="d-flex justify-content-between align-items-sm-center gap-2 flex-sm-row flex-column">
+                    <span>
+                        <h3 class="mb-2">Empowering E-Commerce Growth</h3>
+                        <p class="mb-0">Enhanced Online Shopping</p>
+                    </span>
+                    <button class="btn-primary border-0 white">Global Makret</button>
+                </div>
+                <hr>
+                <p class="w-100">We are developing innovative e-commerce platforms that elevate user experience, drive sales, and streamline online transactions. Our solutions include responsive design, secure payment systems, and intuitive product management tools.</p>
+            </div>
+            <div class="mt-4 p-4 shadow-sm bg-grey rounded">
+                <div class="d-flex justify-content-between align-items-sm-center gap-2 flex-sm-row flex-column">
+                    <span>
+                        <h3 class="mb-2">Optimizing Local Visibility</h3>
+                        <p class="mb-0">Focused Online Presence</p>
+                    </span>
+                    <button class="btn-primary border-0 white">Digital Landscape</button>
+                </div>
+                <hr>
+                <p class="w-100">We are refining digital strategies to improve online visibility with customized local SEO practices. This involves optimizing website content, managing online listings, and conducting comprehensive keyword research to achieve higher rankings and attract more targeted audiences.</p>
+            </div>
+            <div class="mt-4 p-4 shadow-sm bg-grey rounded">
+                <div class="d-flex justify-content-between align-items-sm-center gap-2 flex-sm-row flex-column">
+                    <span>
+                        <h3 class="mb-2">Strengthening Social Connections</h3>
+                        <p class="mb-0">Interactive Brand Engagement</p>
+                    </span>
+                    <button class="btn-primary border-0 white">Social Space</button>
+                </div>
+                <hr>
+                <p class="w-100">We are creating impactful social media campaigns to boost brand awareness and foster audience interaction. The approach integrates organic content, influencer collaborations, and strategic advertisements to maximize reach and increase platform engagement.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="commitment py-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 mb-lg-0 mb-4">
+                    <h4 class="sub-heading">OUR COMMITMENT</h4>
+                    <h2 class="fw-bold">Dedicated To Your <span class="text-yellow">Success</span></h2>
+                    <p class="text-secondary">We strive to deliver outstanding results for every client. Our passion for innovation and excellence drives us to create meaningful solutions that empower businesses and help them thrive in a competitive market.</p>
+                    <a href="#" class="btn-primary">More About Us</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                    <div class="bg-white px-4 shadow-sm rounded py-40 text-center">
+                        <h3 class="">OUR CORE VALUES</h3>
+                        <p class="mb-4">Fostering Creativity And Excellence</p>
+                        <p class="lh-1-8">Our team is driven by creativity, collaboration, and a relentless pursuit of excellence. Together, we tackle challenges and craft solutions that make a real difference for the businesses we serve.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-white px-4 shadow-sm rounded py-40 text-center">
+                        <h3 class="">YOUR TRUSTED PARTNERS</h3>
+                        <p class="mb-4">Collaborating For Success</p>
+                        <p class="lh-1-8">With a focus on growth and impact, we work side-by-side with our clients to achieve their goals and bring their visions to life. Let’s create something extraordinary together.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-news py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h4 class="sub-heading mx-auto before"> New & Blog </h4>
+                <h2 class="fw-bold">Latest News & <span class="text-yellow">Blogs</span></h2>
+                <div class="col-lg-6 mx-auto">
+                    <p class="text-secondary">Exploring innovative strategies daily to empower brands, foster growth, and achieve impactful outcomes.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-4">
+                    <div class="card overflow-hidden">
+                        <img src="./assets/images/blog-img1.jpg" class="card-img-top" alt="Market Research">
+                        <div class="card-body">
+                            <h3 class="">The Best Ways To Do Market Research</h3>
+                            <p class="">
+                                Market research is the cornerstone of any successful business strategy. 
+                                Whether you're launching a new
+                            </p>
+                            <a href="./blogdetail.html" class="text-grey hover-text-yellow text-decoration-none fw-semibold">Learn More...</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-4">
+                    <div class="card overflow-hidden">
+                        <img src="./assets/images/blog-img2.jpg" class="card-img-top" alt="Market Research">
+                        <div class="card-body">
+                            <h3 class="">Embracing Minimalism: A Lifestyle Revolution</h3>
+                            <p class="">
+                                Market research is the cornerstone of any successful business strategy. 
+                                Whether you're launching a new
+                            </p>
+                            <a href="./blogdetail.html" class="text-grey hover-text-yellow text-decoration-none fw-semibold">Learn More...</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-4">
+                    <div class="card overflow-hidden">
+                        <img src="./assets/images/blog-img4.jpg" class="card-img-top" alt="Market Research">
+                        <div class="card-body">
+                            <h3 class="">Mastering The Art Of Sustainable Living</h3>
+                            <p class="">
+                                At Techllcsolution Digital Marketing LLC, we believe that sustainability isn't just a buzzword—it's a vital
+                            </p>
+                            <a href="./blogdetail.html" class="text-grey hover-text-yellow text-decoration-none fw-semibold">Learn More...</a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer mt-5 py-4">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="">About Us</h6>
+                    <p class="text-muted">
+                        At Techllcsolution Digital Marketing LLC, we specialize in web development, SEO optimization, and social media 
+                        marketing to help your business grow online.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="">Quick Link</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/aboutus.html">About us</a></li>
+                        <li><a href="/services.html">Services</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="">Why Us</h6>
+                    <p>Expert Team<br>Proven Results<br>Customized Solutions<br>24/7 Support<br>Client-Centered</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="">Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:void(0);">Web Development</a></li>
+                        <li><a href="javascript:void(0);">SEO (Search Engine Optimization)</a></li>
+                        <li><a href="javascript:void(0);">Social Media Marketing</a></li>
+                        <li><a href="javascript:void(0);">Graphic Designing</a></li>
+                        <li><a href="javascript:void(0);">Influencer Marketing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-end text-muted">
+                Copyright © 2025 Techllcsolution Digital Marketing LLC. Powered by <strong>WordPress</strong>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
